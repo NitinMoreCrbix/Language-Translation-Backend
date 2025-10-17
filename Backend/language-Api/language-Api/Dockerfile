@@ -25,7 +25,7 @@
 #EXPOSE 8080
 #CMD ["java", "-jar", "app.jar"]
 
--------------------------------------
+
 # Build stage
 FROM maven:3.9.4-eclipse-temurin-17 AS build
 WORKDIR /build
