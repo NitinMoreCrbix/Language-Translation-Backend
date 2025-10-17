@@ -11,6 +11,7 @@ import java.net.http.HttpResponse;
 import java.util.*;
 
 @RestController
+@RequestMapping
 public class TranslationController {
 
     @Value("${huggingface.api.token}")
